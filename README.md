@@ -1,5 +1,5 @@
 # DNA Sequence Analyzerecho # DNA Sequence Analyzer
-This was practicr bionformatics and github
+This was practice  bionformatics and github
 A localized bioinformatics engine designed for genomic data parsing, optimizing runtime evaluation of genetic sequences.
 
 ## Features

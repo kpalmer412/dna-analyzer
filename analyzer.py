@@ -5,3 +5,7 @@ def calculate_gc_content(sequence):
 
 def transcribe_to_rna(sequence):
     return sequence.upper().replace('T', 'U')
+
+def find_mutation_markers(sequence, target='GTG'):
+    bases = sequence.upper()
+    return [i for i in range(len(bases)) if bases.startswith(target, i)]
